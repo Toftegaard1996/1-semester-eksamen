@@ -1,0 +1,504 @@
+/* alle sider */
+body{
+    background-image: linear-gradient(rgba(247,137,32,0.5), rgba(224,88,18,0.75), rgba(251,65,20,0.9));
+}
+
+header {
+    height: 150px;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center; 
+    background-color: #FFF0DA;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+h2{
+    font-size: 300%;
+}
+
+main{
+    height: 50px;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    background-color: #F78920; 
+    
+}
+
+button {
+    background-color: #F78920;
+    border: none;
+    color: black;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    float: left;
+    font-size: 24px;
+    width: 25%;
+    height: 50px;
+}
+
+
+button:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+button:active{
+    font-weight: bold;
+}
+
+/* index */
+
+.textbox{
+    margin: 3% 10% 0 37%;
+    height: auto;
+    column-count: 2;
+    column-gap: 60px;
+    padding: 5px;
+}
+
+.brand{
+    font-family: 'open Sans', sans-serif;
+}
+
+.logobillede{
+    float: left;
+    margin: 3% 2% 5% 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* projekter */
+
+h3{
+    margin-left: 10%;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 3%;
+}
+
+.projekt1{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 2%;
+    float: left;
+    width: 50%;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.projekt2{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 2%;
+    float: left;
+    width: 50%;
+    margin-bottom: 5%;
+    column-count: 2;
+    column-gap: 40px;
+    
+}
+
+.design{
+    margin-right: 10%;
+    margin-left: 6%;
+        
+}
+
+.link{
+    float: left;
+    margin-left: 6%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.link:hover {
+    box-shadow: 0 0 5px 1px;
+    rgba (0,140,186,0.5);
+}
+
+/* kreationer */
+
+h1{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'libre Baskerville', serif;
+}
+
+h4{
+    text-align: center;
+    font-family: 'libre baskerville', serif;
+    font-size: 130%;
+    margin-bottom: 3%;
+}
+
+.penguhead{
+    font-size: 1.17em;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.penguin {
+    width: 200px;
+    height: 200px;
+    background: url(../img/animation-04.png) 0 0 no-repeat;
+    animation: penguin 5s steps(79) infinite;
+    margin-left: 10%;
+    float: left;
+    margin-right: 1%;
+}
+
+@keyframes penguin {
+    0% {background-position: 0px;}
+    100% {background-position: -15800px;}
+}
+
+.pengu{
+    font-family: 'open sans', sans-serif;
+    margin-right: 50%;
+    margin-left: 21%;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+hr{
+    margin: auto;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    display: block;
+    border-style: dashed;
+    border-width: 1px;
+    width: 80%;
+}
+.video{
+    margin: 2% 10% 4% 0;
+    float: right;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.video:hover{
+    box-shadow: 0 0 5px 1px rgba(0,140,186,0.5);
+}
+
+.animation{
+    font-family: 'Open sans', sans-serif;
+    margin-right: 25%;
+    margin-left: 40%;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.headline{
+    font-size: 1.17em;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.fritid{
+    font-size: 1.17em;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.cirkler{
+    font-family: 'open sans', sans-serif;
+    margin: 4% 50% 0 0;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.swirls{
+    margin: 0 20px 5% 10%;
+    float: left;
+    max-width: 100%;
+}
+
+.startprojekt{
+    font-size: 1.17em;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.stopmotion{
+    margin: 0 10% 4% 0;
+    float: right;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.stopmotion:hover{
+    box-shadow: 0 0 5px 1px rgba(0,140,186,0.5);
+}
+
+.start{
+    font-family: 'Open sans', sans-serif;
+    margin-right: 25%;
+    margin-left: 40%;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+
+/* kontakt */
+
+.logobillede02{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin: 3% 3% 5% 10%;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 5%;
+    margin-top: 3%;
+}
+
+.oplysninger{
+    margin-top: 3%;
+    float: left;
+    font-size: 110%;
+}
+
+.li{
+    font-family: 'open sans', sans-serif;
+    color: black;
+}
+
+/* breakpoints */
+
+@media only screen and (max-width:600px){
+    
+    /* index */
+    
+    .logobillede{
+        margin-left: 0%;
+        margin-bottom: 5%;
+    }
+    .textbox{
+        width: 100%;
+        margin: 0%;
+        margin-top: 3%;
+    }
+    button{
+        font-size: 80%;
+        width: 25%;
+    }
+    .button1{
+        margin: 0%;
+        border-left: none;
+    }
+    .button4{
+        margin: 0%;
+        border-right: none;
+    }
+    h2{
+        font-size: 250%;
+        margin-top: 25px;
+    }
+    
+    /* projekter */
+    
+    .projekt1{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .design{
+        margin-top: 3%;
+    }
+    .projekt2{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .link{
+        margin-bottom: 3%;
+    }
+    
+    /* kreationer */
+    
+    .penguin{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 25%;
+    }
+    .pengu{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .animation{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .video{
+        margin-bottom: 3%;
+        margin-top: 25%;
+        margin-top: 0%;
+    }
+    .cirkler{
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 3%;
+    }
+    .swirls{
+        margin-left: 0%;
+    }
+    .start{
+        width: 100%;
+        margin-left: 0%;
+    }
+    hr{
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    
+    /* kontakt */
+    
+    .logobillede02{
+        margin-left: 0%;
+        margin-bottom: 5%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:992px){
+    
+    /* index */
+    
+    .textbox{
+        width: 100%;
+        margin: 0%;
+        margin-top: 3%;
+        height: auto;
+    }
+    button{
+        width: 25%;
+    }
+    .button1{
+        margin: 0%;
+        border-left: none;
+    }
+    .button4{
+        margin: 0%;
+        border-right: none;
+    }
+    .logobillede{
+        margin-bottom: 5%;
+    }
+    
+    /* projekter */
+    
+    .projekt1{
+        width: 100%;
+        margin-left: auto;
+    }
+    .design{
+        margin-top: 3%;
+        margin-left: 25%;
+    }
+    .projekt2{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .link{
+        margin-left: 25%;
+    }
+    
+    /* kreationer */
+    
+    .pengu{
+        width: 100%;
+        margin: 0%;
+    }
+    .penguin{
+        margin-bottom: 3%;
+        margin-top: 3%;
+        margin-left: 25%;
+    }
+    .animation{
+        width: 100%;
+        margin: 0%;
+    }
+    .video{
+        margin-bottom: 3%;
+    }
+    .cirkler{
+        width: 100%;
+        margin-bottom: 3%;
+        margin-left: 0%;
+    }
+    .start{
+        width: 100%;
+        margin-left: 0%;
+    }
+     hr{
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    
+    /* kontakt */
+    
+    .oplysninger{
+        margin-left: 10%;
+    }
+    
+}
+
+@media only screen and (min-width:993px) and (max-width:1200px){
+    
+    /* index */
+    
+    .textbox{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .logobillede{
+        margin-bottom: 3%;
+    }
+    
+    /* projekt */
+    
+    .projekt1{
+        width: 80%;
+        margin-right: 10%;
+    }
+    .design{
+        margin: 3% 0 3% 10%;
+    }
+    .projekt2{
+        width: 80%;
+        margin-right: 10%;
+    }
+    .link{
+        margin-left: 10%;
+    }
+    
+    /* kreationer */
+    
+    .pengu{
+        width: 50%;
+        margin-right: 10%;
+    }
+    .animation{
+        width: 50%;
+        margin-left: 10%;
+    }
+    .cirkler{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .start{
+        width: 50%;
+        margin-left: 10%;
+    }
+
+}
